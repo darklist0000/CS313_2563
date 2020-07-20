@@ -1,0 +1,224 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }  
+   
+   header {
+        width: 100%;
+        background: turquoise;
+        height: 120px;
+        border-bottom: violet 3px solid;
+    }
+
+    .container {
+        max-width: 960px;
+        width: 100%;
+        margin: 0 auto;
+        
+    }
+    .nav-grid{
+        display: grid;
+        grid-template-columns: 255px 1fr;
+    }
+
+    .logo{
+        margin-top: 35px;
+
+    }
+    .logo h1{
+        font-size: 28px;
+        text-transform: uppercase;
+    }
+    .logo span{
+        font-size: 12px;
+    }
+
+    ul.menu{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        justify-items: center;
+        margin-top: 35px;
+        font-size: 20px;
+        
+        
+
+    }
+    ul.menu li{
+        list-style: none;
+    }
+    ul.menu li a{
+        text-decoration: none;
+        color: white;
+        transition: .5 ease-in-out;
+        padding: 5px 10px;
+        text-transform: uppercase;
+        
+    }
+    ul.menu li a:hover{
+        background: yellow;
+        padding: 5px 10px;
+        text-decoration: underline;
+        border-radius: 5px;
+
+    }
+    .slide{
+        
+    }
+
+    .content-grid{
+        display: grid;
+        grid-template-columns: minmax(auto,60%) minmax(auto,60%);
+        
+        
+    }
+    .content-pic{
+      display: grid;
+       grid-template-columns: minmax(auto auto) minmax(auto auto);
+       grid-template-rows: minmax(auto auto) minmax(auto auto);
+       padding: 1em;
+
+      
+      
+    }
+    .grid1{
+        grid-column: 1/2;
+        grid-row: 1/4;
+        padding: 1em;
+        padding-right: 0em;
+    }
+    .grid2{
+        grid-column: 2/3;
+        grid-row: 1/2;
+        padding: 1em;
+        padding-left: 0em;
+    }
+    .grid3{
+        grid-column: 2/3;
+        grid-row: 2/3;
+        padding: 1em;
+        padding-top: 0em;
+        padding-left: 0em;
+
+    }
+
+    .content-text{
+        padding: 1em;
+        margin-top: 1em;
+
+    }
+
+    .content-text h2 a{
+        background:cornflowerblue;
+        text-decoration: none;
+        color: whitesmoke;
+        padding: 5px 10px;
+        transition: .5 ease-in-out;
+
+    }
+    .content-text a:hover{
+        text-decoration: underline;
+
+    }
+    .bottom-header{
+        font-size: 40px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .bottom-grid{
+        display: grid;
+        grid-template-columns: repeat(6,1fr);
+        margin: 3%;
+        column-gap: 15px;
+    }
+    .bottom-item{
+        
+    }
+    .bottom-item img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    .bottom-item h1{
+        text-align: center;
+    }
+    .bottom-item p{
+        text-align: left;
+    }
+
+    .newrelese{
+    }
+    .newrelese-header{
+        text-align: center;
+    }
+    .newrelese-header h1{
+        font-size: 40px;
+        margin-top: 20px;
+    }
+    .newrelese-header span{
+        font-size: 20px;
+        color: white;
+    }
+    .newrelese-grid{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        column-gap: 15px;
+    }
+    .newrelese-item{
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+    .newrelese-item span{
+        font-size: 15px;
+        color: whitesmoke;
+        
+    }
+    .newrelese-item a{
+        font-size: 20px;
+        text-decoration: none;
+        color:rebeccapurple;
+        padding: 5px 10px;
+    }
+    .newrelese-item a:hover{
+        color: plum;
+        background: white;
+        padding: 5px 10px;
+        border-radius: 10px;
+
+    }
+    .contact-grid{
+        display: grid;
+        grid-template-columns: minmax(auto,50%) minmax(auto,50%);
+    }
+    .contact-footer{
+        text-align: center;
+        margin-top: 20px;
+        
+    }
+    .contact-footer p{
+        color: #7d9ea3;
+        margin-top: 50px;
+    }
+    .contactweb{
+        display: grid;
+        grid-template-columns: minmax(auto,25%) minmax(auto,25%);
+        list-style: none;
+        padding-top: 30px;
+        
+    }
+    .about{
+        color: white;
+    }
+    .about li{
+        margin-top: 10px;
+        font: 20px;
+    }
+    .about li a{
+        color: #7d9ea3;
+        text-decoration: none;
+    }
+    .contact-us{
+        color: white;
+    }
+    
